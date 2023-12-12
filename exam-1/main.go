@@ -15,6 +15,9 @@ func main() {
 
 	LogIn(username, password)
 
+	fmt.Println(Add(2, 3))
+	fmt.Println(Subtract(5, 3))
+
 }
 
 func HelloFunction() string {
