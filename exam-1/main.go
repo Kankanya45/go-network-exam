@@ -3,8 +3,18 @@ package main
 import "fmt"
 
 func main() {
-	// TODO: Implement a simple Go program
-	fmt.Println(HelloFunction())
+	// Got Username and Password from keyboard
+	var username string
+	var password string
+
+	fmt.Print("Username: ")
+	fmt.Scanln(&username)
+	fmt.Print("Password: ")
+	fmt.Scanln(&password)
+	// Call function LogIn
+
+	LogIn(username, password)
+
 }
 
 func HelloFunction() string {
